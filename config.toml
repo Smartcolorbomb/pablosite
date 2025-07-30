@@ -1,6 +1,6 @@
 baseURL = "https://pablo.spa/"
 languageCode = "en-us"
-title = "Pablo's Blog"
+title = "Pablo's Blog Test"
 theme = "PaperMod"
 enableRobotsTXT = true
 
