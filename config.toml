@@ -1,0 +1,33 @@
+baseURL = "http://localhost:1313/"
+languageCode = "en-us"
+title = "My Hugo Blog"
+theme = "PaperMod"
+enableRobotsTXT = true
+
+[params]
+  defaultTheme = "auto"   # "dark", "light", or "auto"
+  showReadingTime = true
+  showShareButtons = true
+  showPostNavLinks = true
+  showCodeCopyButtons = true
+  showBreadCrumbs = true
+  showToc = true
+  tocOpen = false
+
+  [params.homeInfoParams]
+    Title = "Welcome to my blog"
+    Content = "This is a place where I share ideas and stories with my friends."
+
+[menu]
+
+  [[menu.main]]
+    identifier = "home"
+    name = "Home"
+    url = "/"
+    weight = 1
+
+  [[menu.main]]
+    identifier = "posts"
+    name = "Posts"
+    url = "/posts/"
+    weight = 2
