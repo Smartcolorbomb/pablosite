@@ -1,6 +1,6 @@
-baseURL = "http://localhost:1313/"
+baseURL = "https://pablo.spa/"
 languageCode = "en-us"
-title = "My Hugo Blog"
+title = "My Blog"
 theme = "PaperMod"
 enableRobotsTXT = true
 
