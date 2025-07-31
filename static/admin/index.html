@@ -12,8 +12,14 @@
       fetch("config.yml")
         .then(res => res.text())
         .then(config => {
-          window.CMS.init(window.jsyaml.load(config));
-        });
+          const parsed = window.jsyaml.load(config);
+          if (!window.CMS) {
+            console.error("CMS not loaded");
+          } else {
+            window.CMS.init(parsed);
+          }
+        })
+        .catch(err => console.error("Error loading config:", err));
     </script>
   </body>
 </html>
