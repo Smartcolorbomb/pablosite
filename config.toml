@@ -1,8 +1,13 @@
 baseURL = "https://pablo.spa/"
 languageCode = "en-us"
-title = "Pablo's Blog Test 4"
+title = "Pablo's Blog"
 theme = "PaperMod"
 enableRobotsTXT = true
+defaultContentLanguage = "en"
+
+# 👇 This tells Hugo to generate both HTML and RSS for the homepage
+[outputs]
+  home = ["HTML", "RSS"]
 
 [params]
   defaultTheme = "auto"   # "dark", "light", or "auto"
