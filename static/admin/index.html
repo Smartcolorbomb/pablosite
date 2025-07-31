@@ -4,22 +4,21 @@
     <meta charset="utf-8" />
     <title>Decap CMS</title>
     <script src="https://unpkg.com/decap-cms@latest/dist/decap-cms.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/js-yaml/4.1.0/js-yaml.min.js"></script>
   </head>
   <body>
-    <div id="nc-root"></div>
     <script>
+      window.CMS_MANUAL_INIT = true;
+    </script>
+    <div id="nc-root"></div>
+    <script type="module">
+      import yaml from "https://cdn.jsdelivr.net/npm/js-yaml@4.1.0/+esm";
+
       fetch("config.yml")
-        .then(res => res.text())
-        .then(config => {
-          const parsed = window.jsyaml.load(config);
-          if (!window.CMS) {
-            console.error("CMS not loaded");
-          } else {
-            window.CMS.init(parsed);
-          }
+        .then((res) => res.text())
+        .then((text) => {
+          window.CMS.init(yaml.load(text));
         })
-        .catch(err => console.error("Error loading config:", err));
+        .catch((err) => console.error("CMS failed to load:", err));
     </script>
   </body>
 </html>
