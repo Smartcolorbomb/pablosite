@@ -3,14 +3,9 @@ languageCode = "en-us"
 title = "Pablo's Blog"
 theme = "PaperMod"
 enableRobotsTXT = true
-defaultContentLanguage = "en"
-
-# 👇 This tells Hugo to generate both HTML and RSS for the homepage
-[outputs]
-  home = ["HTML", "RSS"]
 
 [params]
-  defaultTheme = "auto"   # "dark", "light", or "auto"
+  defaultTheme = "auto"
   showReadingTime = true
   showShareButtons = true
   showPostNavLinks = true
@@ -24,7 +19,6 @@ defaultContentLanguage = "en"
     Content = "This is a place where I share ideas and stories with my friends."
 
 [menu]
-
   [[menu.main]]
     identifier = "home"
     name = "Home"
