@@ -6,6 +6,18 @@
     <script src="https://unpkg.com/decap-cms@latest/dist/decap-cms.js"></script>
   </head>
   <body>
+    <script>
+      window.CMS_MANUAL_INIT = true;
+    </script>
+    <script src="config.yml" type="text/yaml"></script>
     <div id="nc-root"></div>
+    <script>
+      fetch("config.yml")
+        .then(res => res.text())
+        .then(config => {
+          window.CMS.init(window.jsyaml.load(config));
+        });
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/js-yaml/4.1.0/js-yaml.min.js"></script>
   </body>
 </html>
