@@ -2,8 +2,8 @@ backend:
   name: github
   repo: Smartcolorbomb/pablosite
   branch: main
-  auth_scope: repo
-  client_id: Ov23liXwadN0PVQsN1EG
+  base_url: https://api.netlify.com
+  auth_endpoint: auth
 
 media_folder: "static/images/uploads"
 public_folder: "/images/uploads"
@@ -11,7 +11,7 @@ public_folder: "/images/uploads"
 collections:
   - name: "blog"
     label: "Blog"
-    folder: "content/posts"
+    folder: content/posts
     create: true
     slug: "{{slug}}"
     fields:
