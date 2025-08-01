@@ -1,11 +1,24 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
   <head>
-    <meta charset="UTF-8" />
-    <title>Admin | Decap CMS</title>
+    <meta charset="utf-8" />
+    <title>Decap CMS</title>
+    <script>
+      window.CMS_MANUAL_INIT = true;
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/js-yaml/4.1.0/js-yaml.min.js"></script>
     <script src="https://unpkg.com/decap-cms@latest/dist/decap-cms.js"></script>
   </head>
   <body>
     <div id="nc-root"></div>
+    <script>
+      fetch("config.yml")
+        .then(res => res.text())
+        .then(config => {
+          const parsedConfig = window.jsyaml.load(config);
+          window.CMS.init(parsedConfig);
+        })
+        .catch(err => console.error("Error loading config.yml", err));
+    </script>
   </body>
 </html>
