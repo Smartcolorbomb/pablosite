@@ -16,7 +16,7 @@ showToc: false
 
 Hi!
 
-I'm currently living in a cabin in the Swiss Alps called <a href="https://maps.app.goo.gl/3rp6uyCyBACvAzSC9" target="_blank">Gaffia Hütte</a>.  
+I'm currently living in a cabin in the Swiss Alps called <a href="https://maps.app.goo.gl/3rp6uyCyBACvAzSC9" target="_blank">Gaffiahütte</a>.  
 The nearest town is Sargans.
 
 I'm working as a waiter in a mountain hut, the <a href="https://maps.app.goo.gl/L4Kf84GFvuPcFHy69" target="_blank">Pizolhütte</a>, and also doing some web programming for Carpintería Huayapam.
