@@ -6,7 +6,7 @@ baseURL = "https://pablo.spa/"
 languageCode = "en-us"
 title = "Pablo Spada"
 theme = "PaperMod"
-defaultContentLanguage = "en"
+#defaultContentLanguage = "en"
 defaultContentLanguageInSubdir = true
 enableRobotsTXT = true
 
