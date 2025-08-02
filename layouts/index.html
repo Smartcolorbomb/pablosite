@@ -1,6 +1,4 @@
 {{ define "main" }}
-  {{ partial "home-info.html" . }}
-
   <section class="recent-posts">
     <h2>{{ i18n "recentPosts" }}</h2>
     {{ $pages := where .Site.RegularPages "Type" "in" site.Params.mainSections }}
