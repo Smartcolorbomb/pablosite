@@ -54,7 +54,7 @@ collections:
   - name: "posts_es"
     label: "Publicaciones (ES)"
     i18n: true
-    folder: "content/es/blog"
+    folder: "content/es/posts"
     create: true
     slug: "{{slug}}"
     format: "yaml-frontmatter"
@@ -71,7 +71,7 @@ collections:
   - name: "posts_en"
     label: "Posts (EN)"
     i18n: true
-    folder: "content/en/blog"
+    folder: "content/en/posts"
     create: true
     slug: "{{slug}}"
     format: "yaml-frontmatter"
