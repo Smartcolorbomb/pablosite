@@ -36,39 +36,30 @@ media_folder: "static/uploads"
 public_folder: "/uploads"
 
 # =============================
+# 🌐 MULTILINGUAL SETUP
+# =============================
+
+i18n:
+  structure: multiple_folders
+  locales: [en, es]
+  default_locale: en
+
+# =============================
 # 📚 COLLECTIONS
 # =============================
 
 collections:
-
-  # 📙 English blog posts
-  - name: "posts_en"
-    label: "Posts (EN)"
-    folder: "content/en/posts"
-    i18n: true
+  - name: "posts"
+    label: "Blog Posts"
+    folder: "content/{{locale}}/posts"
     create: true
+    i18n: true
     slug: "{{slug}}"
     format: "yaml-frontmatter"
     identifier_field: title
     fields:
       - { label: "Title", name: "title", widget: "string", i18n: true }
       - { label: "Date", name: "date", widget: "datetime", i18n: true }
-      - { label: "Draft", name: "draft", widget: "boolean", default: true, required: false, i18n: true }
+      - { label: "Draft", name: "draft", widget: "boolean", default: true, i18n: true }
       - { label: "Summary", name: "summary", widget: "string", required: false, i18n: true }
       - { label: "Body", name: "body", widget: "markdown", i18n: true }
-
-  # 📘 Spanish blog posts
-  - name: "posts_es"
-    label: "Publicaciones (ES)"
-    folder: "content/es/posts"
-    i18n: true
-    create: true
-    slug: "{{slug}}"
-    format: "yaml-frontmatter"
-    identifier_field: title
-    fields:
-      - { label: "Título", name: "title", widget: "string", i18n: true }
-      - { label: "Fecha", name: "date", widget: "datetime", i18n: true }
-      - { label: "Borrador", name: "draft", widget: "boolean", default: true, required: false, i18n: true }
-      - { label: "Resumen", name: "summary", widget: "string", required: false, i18n: true }
-      - { label: "Contenido", name: "body", widget: "markdown", i18n: true }
