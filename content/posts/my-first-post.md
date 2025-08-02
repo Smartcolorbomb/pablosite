@@ -9,9 +9,7 @@ Lo que sí quiero hacer es compartir algunas razones por las que decidí escribi
 
 Una de ellas es lo útil que puede ser compartir este tipo de información. Me ha pasado varias veces que, por una simple publicación en redes, surge la casualidad de encontrarme con alguien. Por ejemplo, si subo algo desde Oaxaca o de algún otro lugar, puede que alguien que conozco esté cerca y así podamos coincidir. Este blog no será un espacio de actualizaciones constantes, pero sí quiero usarlo para compartir cambios importantes en mi vida, por si se da alguna de esas bonitas coincidencias.
 
-Otra razón es que quiero usar esto como un ejercicio personal. Siempre he pensado que no soy muy bueno escribiendo o expresan
-
-do con claridad mis ideas. Al redactar esto lo noto: voy de un tema a otro sin mucho orden. Espero mejorar con la práctica. Para los posts públicos voy a usar herramientas de inteligencia artificial que me ayuden a darles forma, pero también voy a guardar los borradores originales para ver cómo va evolucionando mi forma de escribir con el tiempo.
+Otra razón es que quiero usar esto como un ejercicio personal. Siempre he pensado que no soy muy bueno escribiendo o expresando con claridad mis ideas. Al redactar esto lo noto: voy de un tema a otro sin mucho orden. Espero mejorar con la práctica. Para los posts públicos voy a usar herramientas de inteligencia artificial que me ayuden a darles forma, pero también voy a guardar los borradores originales para ver cómo va evolucionando mi forma de escribir con el tiempo.
 
 También quiero aprender un poco más sobre desarrollo web. Me tomó varios días poder subir este blog: está alojado en GitHub, usando Netlify y Decap CMS. Aunque es un sitio simple, tuve que resolver varios detalles técnicos. Pero aprendí bastante.
 
