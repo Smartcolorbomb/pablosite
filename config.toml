@@ -59,8 +59,3 @@ enableRobotsTXT = true
     url = "/admin/"
     weight = 92
 
-  [[menu.main]]
-    identifier = "now"
-    name = "Now"
-    url = "/now/"
-    weight = 90
