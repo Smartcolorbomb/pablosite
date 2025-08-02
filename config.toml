@@ -36,7 +36,7 @@ enableRobotsTXT = true
 
   # ✅ Load custom CSS for any overrides (optional, needs file)
   [params.assets]
-    css = ["css/custom.css"]                   # Put your styles in /assets/css/custom.css
+    #css = ["css/custom.css"]                   # Put your styles in /assets/css/custom.css
 
 ############################################
 # Language Configuration (Multilingual)
