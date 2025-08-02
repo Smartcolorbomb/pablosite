@@ -76,7 +76,26 @@ enableRobotsTXT = true
 #  weight = 91
 #  pre = ""
 #  post = ""
+ 
+ # 🇲🇽 Spanish About page
+  [[menu.main]]
+    identifier = "about-es"
+    name = "📘 Sobre mí"
+    url = "/es/about/"
+    weight = 80
+    pre = ""
+    post = ""
 
+  # 🇬🇧 English About page
+  [[menu.main]]
+    identifier = "about-en"
+    name = "📘 About"
+    url = "/en/about/"
+    weight = 80
+    pre = ""
+    post = ""
+
+# 🛠 Login Redirect to Decap Site
   [[menu.main]]
     identifier = "admin"
     name = "🛠 Login"
