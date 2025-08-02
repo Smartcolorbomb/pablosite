@@ -26,19 +26,6 @@ enableRobotsTXT = true
   mainSections = ["posts"]
   favicon = "icon96.png"
 
-  # 🏠 Custom homepage message
-  [params.homeInfoParams]
-    Title = "Hola, soy Pablo"
-    Content = "Este es mi blog personal. Aquí comparto ideas y reflexiones. Puedes cambiar de idioma arriba."
-
-  # ✅ Footer with admin login link
-  [params.footer]
-    enable = true
-    customText = '<a href="/admin" style="text-decoration:none;">login personal</a>'
-
-  # (Optional) Add your own CSS if needed
-  #[params.assets]
-  #  css = ["css/custom.css"]
 
 ############################################
 # 🌐 Multilingual Configuration
@@ -52,11 +39,19 @@ enableRobotsTXT = true
     title = "Pablo Spada"
     weight = 1
 
+  [languages.es.params.homeInfoParams]
+    Title = "Hola, Bienvenido"
+    Content = "Este es mi blog personal. Aquí comparto ideas y reflexiones. Puedes cambiar de idioma arriba."
+
   [languages.en]
     languageName = "English"
     contentDir = "content/en"
     title = "Pablo Spada"
     weight = 2
+    
+  [languages.en.params.homeInfoParams]
+    Title = "Hi, Welcome!"
+    Content = "This is my personal blog where I share thoughts and reflections. You can switch languages above."
 
 ############################################
 # 📂 Menu Configuration
@@ -65,19 +60,19 @@ enableRobotsTXT = true
 [menu]
 
   [[menu.main]]
-    identifier = "home"
-    name = "Home"
-    url = "/"
-    weight = 1
-
-  [[menu.main]]
     identifier = "es"
-    name = "🇲🇽 Español"
+    name = "🇲🇽 Es"
     url = "https://pablo.spa/es/"
     weight = 90
 
   [[menu.main]]
     identifier = "en"
-    name = "🇬🇧 English"
+    name = "🇬🇧 En"
     url = "https://pablo.spa/en/"
     weight = 91
+
+  [[menu.main]]
+  identifier = "admin"
+  name = "🛠 Login"
+  url = "/admin"
+  weight = 92
