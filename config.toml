@@ -84,3 +84,4 @@ enableRobotsTXT = true
     weight = 92
     pre = ""
     post = ""
+    relURL = false
