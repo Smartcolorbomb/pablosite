@@ -16,6 +16,7 @@ enableRobotsTXT = true
 
 [params]
   defaultTheme = "auto"
+  ShowLanguageSwitcher = true
   showReadingTime = true
   showPostNavLinks = true
   showCodeCopyButtons = true
@@ -60,26 +61,26 @@ enableRobotsTXT = true
 
  [menu]
 
-  [[menu.main]]
-    identifier = "es"
-    name = "🇲🇽 Es"
-    url = "/es/"
-    weight = 90
-    pre = ""
-    post = ""
+ # [[menu.main]]
+ #   identifier = "es"
+ #   name = "🇲🇽 Es"
+ #   url = "/es/"
+ #   weight = 90
+ #   pre = ""
+ #   post = ""
 
-  [[menu.main]]
-    identifier = "en"
-    name = "🇬🇧 En"
-    url = "/en/"
-    weight = 91
-    pre = ""
-    post = ""
+#  [[menu.main]]
+#   identifier = "en"
+#  name = "🇬🇧 En"
+#  url = "/en/"
+#  weight = 91
+#  pre = ""
+#  post = ""
 
   [[menu.main]]
     identifier = "admin"
     name = "🛠 Login"
-    url = "/admin/"
+    url = "https://pablo.spa/admin/"
     weight = 92
     pre = ""
     post = ""
