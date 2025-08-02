@@ -36,6 +36,15 @@ media_folder: "static/uploads"
 public_folder: "/uploads"
 
 # =============================
+# 🌐 MULTILINGUAL SETUP
+# =============================
+
+i18n:
+  structure: multiple_folders
+  locales: [es, en]
+  default_locale: es
+
+# =============================
 # 📚 COLLECTIONS
 # =============================
 
@@ -44,29 +53,31 @@ collections:
   # 📘 Spanish blog posts
   - name: "posts_es"
     label: "Publicaciones (ES)"
-    folder: "content/es"
+    i18n: true
+    folder: "content/es/blog"
     create: true
     slug: "{{slug}}"
     format: "yaml-frontmatter"
     fields:
-      - { label: "Título", name: "title", widget: "string" }
-      - { label: "Fecha", name: "date", widget: "datetime" }
-      - { label: "Draft", name: "draft", widget: "boolean", default: true, required: false }
+      - { label: "Título", name: "title", widget: "string", i18n: true }
+      - { label: "Fecha", name: "date", widget: "datetime", i18n: true }
+      - { label: "Draft", name: "draft", widget: "boolean", default: true, required: false, i18n: true }
       - { label: "Idioma", name: "lang", widget: "hidden", default: "es" }
-      - { label: "Clave de traducción", name: "translationKey", widget: "string", required: false, hint: "Usa la misma clave que la versión en inglés para vincular los posts" }
-      - { label: "Contenido", name: "body", widget: "markdown" }
+      - { label: "Clave de traducción", name: "translationKey", widget: "string", required: false, hint: "Usa la misma clave que la versión en inglés para vincular los posts", i18n: duplicate }
+      - { label: "Contenido", name: "body", widget: "markdown", i18n: true }
 
   # 📙 English blog posts
   - name: "posts_en"
     label: "Posts (EN)"
-    folder: "content/en"
+    i18n: true
+    folder: "content/en/blog"
     create: true
     slug: "{{slug}}"
     format: "yaml-frontmatter"
     fields:
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "Date", name: "date", widget: "datetime" }
-      - { label: "Draft", name: "draft", widget: "boolean", default: true, required: false }
+      - { label: "Title", name: "title", widget: "string", i18n: true }
+      - { label: "Date", name: "date", widget: "datetime", i18n: true }
+      - { label: "Draft", name: "draft", widget: "boolean", default: true, required: false, i18n: true }
       - { label: "Language", name: "lang", widget: "hidden", default: "en" }
-      - { label: "Translation Key", name: "translationKey", widget: "string", required: false, hint: "Use the same key as the Spanish version to link them" }
-      - { label: "Body", name: "body", widget: "markdown" }
+      - { label: "Translation Key", name: "translationKey", widget: "string", required: false, hint: "Use the same key as the Spanish version to link them", i18n: duplicate }
+      - { label: "Body", name: "body", widget: "markdown", i18n: true }
