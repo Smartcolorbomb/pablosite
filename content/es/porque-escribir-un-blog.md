@@ -2,7 +2,7 @@
 title: Porque escribir un Blog?
 date: 2025-08-02T13:32:00.000+02:00
 lang: es
-translationKey: PRIMERBLOG
+translationKey: BLOG1
 ---
 \# Bienvenida a este blog
 
