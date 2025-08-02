@@ -80,7 +80,7 @@ enableRobotsTXT = true
   [[menu.main]]
     identifier = "admin"
     name = "🛠 Login"
-    url = "https://pablo.spa/admin/"
+    url = "/admin/"
     weight = 92
     pre = ""
     post = ""
