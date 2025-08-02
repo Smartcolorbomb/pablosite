@@ -1,7 +1,6 @@
 # =============================
 # 🔗 BACKEND CONFIGURATION
 # =============================
-
 backend:
   name: git-gateway
   repo: Smartcolorbomb/pablosite
@@ -12,7 +11,6 @@ backend:
 # =============================
 # 💬 COMMIT MESSAGES
 # =============================
-
 commit_messages:
   create: Create {{collection}} “{{slug}}” – {{author-name}} <{{author-login}}> via DecapBridge
   update: Update {{collection}} “{{slug}}” – {{author-name}} <{{author-login}}> via DecapBridge
@@ -24,36 +22,32 @@ commit_messages:
 # =============================
 # 🌍 SITE METADATA
 # =============================
-
 site_url: https://pablo.spa
 logo_url: https://decapbridge.com/decapcms-with-bridge.svg
 
 # =============================
 # 🖼️ MEDIA CONFIGURATION
 # =============================
-
 media_folder: "static/uploads"
 public_folder: "/uploads"
 
 # =============================
 # 🌐 MULTILINGUAL SETUP
 # =============================
-
 i18n:
   structure: multiple_folders
-  locales: [es, en]
-  default_locale: es
+  locales: [en, es]
+  default_locale: en
 
 # =============================
 # 📚 COLLECTIONS
 # =============================
-
 collections:
-  - name: "posts"
-    label: "Posts"
-    i18n: true
-    folder: "content/{{locale}}/posts"
+  - name: "posts_en"
+    label: "Blog Posts (EN)"
+    folder: "content/en/posts"
     create: true
+    i18n: true
     slug: "{{slug}}"
     format: "yaml-frontmatter"
     identifier_field: title
@@ -63,3 +57,18 @@ collections:
       - { label: "Draft", name: "draft", widget: "boolean", default: true, i18n: true }
       - { label: "Summary", name: "summary", widget: "string", required: false, i18n: true }
       - { label: "Body", name: "body", widget: "markdown", i18n: true }
+
+  - name: "posts_es"
+    label: "Publicaciones (ES)"
+    folder: "content/es/posts"
+    create: true
+    i18n: true
+    slug: "{{slug}}"
+    format: "yaml-frontmatter"
+    identifier_field: title
+    fields:
+      - { label: "Título", name: "title", widget: "string", i18n: true }
+      - { label: "Fecha", name: "date", widget: "datetime", i18n: true }
+      - { label: "Borrador", name: "draft", widget: "boolean", default: true, i18n: true }
+      - { label: "Resumen", name: "summary", widget: "string", required: false, i18n: true }
+      - { label: "Contenido", name: "body", widget: "markdown", i18n: true }
