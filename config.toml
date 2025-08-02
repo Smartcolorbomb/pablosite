@@ -1,7 +1,3 @@
-############################################
-# 🌍 Hugo Site Settings
-############################################
-
 baseURL = "https://pablo.spa/"
 languageCode = "en-us"
 title = "Pablo Spada"
@@ -10,10 +6,9 @@ defaultContentLanguage = "en"
 defaultContentLanguageInSubdir = true
 enableRobotsTXT = true
 
-############################################
+# =============================
 # 🎨 PaperMod Theme Parameters
-############################################
-
+# =============================
 [params]
   defaultTheme = "auto"
   ShowLanguageSwitcher = true
@@ -23,41 +18,39 @@ enableRobotsTXT = true
   showBreadCrumbs = true
   showToc = true
   tocOpen = false
-  ShowShareButtons = false                     # ❌ Turn off share buttons
+  ShowShareButtons = false
   mainSections = ["posts"]
   disableSpecial1stPost = true
   disableExternalLinkIcon = true
 
-############################################
+# =============================
 # 🌐 Multilingual Configuration
-############################################
-
+# =============================
 [languages]
 
   [languages.en]
-    languageName = "English"
-    contentDir = "content/posts/en"
-    title = "Pablo Spada"
     weight = 1
+    languageName = "English"
+    contentDir = "content/en"
+    title = "Pablo Spada"
 
     [languages.en.params.homeInfoParams]
       Title = "Hi, Welcome!"
       Content = "This is my personal blog where I share thoughts and reflections. You can switch languages above."
 
   [languages.es]
-    languageName = "Español"
-    contentDir = "content/posts/es"
-    title = "Pablo Spada"
     weight = 2
+    languageName = "Español"
+    contentDir = "content/es"
+    title = "Pablo Spada"
 
     [languages.es.params.homeInfoParams]
       Title = "Hola, Bienvenido"
       Content = "Este es mi blog personal. Aquí comparto ideas y reflexiones. Puedes cambiar de idioma arriba."
 
-############################################
+# =============================
 # 📂 Menu Configuration
-############################################
-
+# =============================
 [menu]
 
   [[menu.main]]
@@ -65,6 +58,9 @@ enableRobotsTXT = true
     name = "🛠 Login"
     url = "/admin/"
     weight = 92
-    pre = ""
-    post = ""
-    relURL = false
+
+  [[menu.main]]
+    identifier = "now"
+    name = "Now"
+    url = "/now/"
+    weight = 90
