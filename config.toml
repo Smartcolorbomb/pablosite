@@ -1,5 +1,5 @@
 ############################################
-# 🔧 General Site Config
+# 🌍 Hugo Site Settings
 ############################################
 
 baseURL = "https://pablo.spa/"
@@ -11,7 +11,7 @@ defaultContentLanguageInSubdir = true
 enableRobotsTXT = true
 
 ############################################
-# 🧠 Theme Parameters
+# 🎨 PaperMod Theme Parameters
 ############################################
 
 [params]
@@ -22,24 +22,24 @@ enableRobotsTXT = true
   showBreadCrumbs = true
   showToc = true
   tocOpen = false
-  ShowShareButtons = false                # ❌ Turn off share buttons
+  ShowShareButtons = false                     # ❌ Turn off share buttons
 
-  # 🏠 Homepage welcome text
+  # 🏠 Custom homepage message
   [params.homeInfoParams]
     Title = "Hola, soy Pablo"
     Content = "Este es mi blog personal. Aquí comparto ideas y reflexiones en español e inglés. Puedes cambiar de idioma arriba."
 
-  # ✅ Login link in footer (no need to override any layout file)
+  # ✅ Footer with admin login link
   [params.footer]
     enable = true
     customText = '<a href="/admin" style="text-decoration:none;">login personal</a>'
 
-  # (Optional) Custom CSS support if needed
+  # (Optional) Add your own CSS if needed
   #[params.assets]
   #  css = ["css/custom.css"]
 
 ############################################
-# 🌍 Multilingual Settings
+# 🌐 Multilingual Configuration
 ############################################
 
 [languages]
@@ -69,12 +69,13 @@ enableRobotsTXT = true
     weight = 1
 
   [[menu.main]]
-    identifier = "posts"
-    name = "Publicaciones"
-    url = "/posts/"
-    weight = 2
-
-  [[menu.main]]
     identifier = "es"
     name = "🇪🇸 Español"
-    url =
+    url = "/es/"
+    weight = 90
+
+  [[menu.main]]
+    identifier = "en"
+    name = "🇬🇧 English"
+    url = "/en/"
+    weight = 91
