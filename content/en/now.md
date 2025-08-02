@@ -3,7 +3,11 @@ title: "Now"
 date: 2025-08-02
 draft: false
 translationKey: "now-page"
-menu: "main"
+menu:
+  main:
+    weight: 90
+    name: "Now"
+showToc: false
 ---
 
 <p align="center">
