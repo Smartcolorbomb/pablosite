@@ -1,9 +1,0 @@
-{{ define "main" }}
-  <section class="recent-posts">
-    <h2>{{ i18n "recentPosts" }}</h2>
-    {{ $pages := where .Site.RegularPages "Type" "in" site.Params.mainSections }}
-    {{ range $pages.ByDate.Reverse }}
-      {{ partial "li.html" . }}
-    {{ end }}
-  </section>
-{{ end }}
