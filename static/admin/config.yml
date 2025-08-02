@@ -54,6 +54,7 @@ collections:
       - { label: "Idioma", name: "lang", widget: "hidden", default: "es" }
       - { label: "Clave de traducción", name: "translationKey", widget: "string", required: false, hint: "Usa la misma clave que la versión en inglés para vincular los posts" }
       - { label: "Contenido", name: "body", widget: "markdown" }
+      - { label: "Draft", name: "draft", widget: "boolean", default: false }
 
   # 📙 English blog posts
   - name: "posts_en"
@@ -68,3 +69,4 @@ collections:
       - { label: "Language", name: "lang", widget: "hidden", default: "en" }
       - { label: "Translation Key", name: "translationKey", widget: "string", required: false, hint: "Use the same key as the Spanish version to link them" }
       - { label: "Body", name: "body", widget: "markdown" }
+      - { label: "Draft", name: "draft", widget: "boolean", default: false }
