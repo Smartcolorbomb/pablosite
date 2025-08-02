@@ -6,6 +6,10 @@ translationKey: "now-page"
 menu: "main"
 ---
 
+<p align="center">
+  <img src="/uploads/profile.jpg" alt="Profile photo" width="200" style="border-radius: 12px;" />
+</p>
+
 Hi!
 
 I'm currently living in a cabin in the Swiss Alps called [Gaffia Hütte](https://maps.app.goo.gl/3rp6uyCyBACvAzSC9). The nearest town is Sargans.
