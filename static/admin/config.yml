@@ -51,7 +51,7 @@ i18n:
 collections:
   - name: "posts"
     label: "Blog Posts"
-    folder: "content/{{locale}}/posts"
+    folder: "content/posts"
     create: true
     i18n: true
     slug: "{{slug}}"
