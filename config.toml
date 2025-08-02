@@ -6,7 +6,7 @@ baseURL = "https://pablo.spa/"
 languageCode = "en-us"
 title = "Pablo Spada"
 theme = "PaperMod"
-defaultContentLanguage = "es"
+defaultContentLanguage = "en"
 defaultContentLanguageInSubdir = true
 enableRobotsTXT = true
 
@@ -27,7 +27,7 @@ enableRobotsTXT = true
   # 🏠 Custom homepage message
   [params.homeInfoParams]
     Title = "Hola, soy Pablo"
-    Content = "Este es mi blog personal. Aquí comparto ideas y reflexiones en español e inglés. Puedes cambiar de idioma arriba."
+    Content = "Este es mi blog personal. Aquí comparto ideas y reflexiones. Puedes cambiar de idioma arriba."
 
   # ✅ Footer with admin login link
   [params.footer]
