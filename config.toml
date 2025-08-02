@@ -6,7 +6,7 @@ baseURL = "https://pablo.spa/"
 languageCode = "en-us"
 title = "Pablo Spada"
 theme = "PaperMod"
-#defaultContentLanguage = "en"
+defaultContentLanguage = "en"
 defaultContentLanguageInSubdir = true
 enableRobotsTXT = true
 
@@ -23,6 +23,7 @@ enableRobotsTXT = true
   showToc = true
   tocOpen = false
   ShowShareButtons = false                     # ❌ Turn off share buttons
+  mainSections = ["es", "en"]
 
   # 🏠 Custom homepage message
   [params.homeInfoParams]
