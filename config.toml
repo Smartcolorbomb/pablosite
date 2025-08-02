@@ -74,6 +74,6 @@ enableRobotsTXT = true
   [[menu.main]]
   identifier = "admin"
   name = "🛠 Login"
-  url = "/admin"
+  url = "https://pablo.spa/admin"
   weight = 92
   relURL = false
