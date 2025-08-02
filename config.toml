@@ -65,15 +65,18 @@ enableRobotsTXT = true
   name = "🇲🇽 Es"
   url = "https://pablo.spa/es/"
   weight = 90
+  pre = ""  # Prevents Hugo from adding icon
 
 [[menu.main]]
   identifier = "en"
   name = "🇬🇧 En"
   url = "https://pablo.spa/en/"
   weight = 91
+  pre = ""  # Prevents Hugo from adding icon
 
 [[menu.main]]
   identifier = "admin"
   name = "🛠 Login"
   url = "https://pablo.spa/admin/"
   weight = 92
+  pre = ""  # Prevents Hugo from adding icon
