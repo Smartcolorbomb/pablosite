@@ -23,7 +23,7 @@ enableRobotsTXT = true
   showToc = true
   tocOpen = false
   ShowShareButtons = false                     # ❌ Turn off share buttons
-  mainSections = ["blog"]
+  mainSections = ["posts"]
 
   # 🏠 Custom homepage message
   [params.homeInfoParams]
