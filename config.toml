@@ -74,5 +74,6 @@ enableRobotsTXT = true
   [[menu.main]]
   identifier = "admin"
   name = "🛠 Login"
-  url = "//admin"
+  url = "/admin"
   weight = 92
+  relURL = false
