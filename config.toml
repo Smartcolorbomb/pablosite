@@ -71,11 +71,11 @@ enableRobotsTXT = true
   [[menu.main]]
     identifier = "es"
     name = "🇪🇸 Español"
-    url = "/es/"
+    url = "//pablo.spa/es/"
     weight = 90
 
   [[menu.main]]
     identifier = "en"
     name = "🇬🇧 English"
-    url = "/en/"
+    url = "//pablo.spa/en/"
     weight = 91
