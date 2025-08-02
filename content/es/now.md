@@ -16,7 +16,7 @@ showToc: false
 
 Esta página es una especie de “check-in” digital, donde cuento brevemente en qué ando, dónde estoy y cómo puedes contactarme.
 
-Actualmente estoy viviendo en una cabaña en los Alpes suizos llamada [Gaffia Hütte](https://maps.app.goo.gl/3rp6uyCyBACvAzSC9), cerca del pueblo de Sargans.
+Actualmente estoy viviendo en una cabaña en los Alpes suizos llamada [Gaffiahütte](https://maps.app.goo.gl/3rp6uyCyBACvAzSC9), cerca del pueblo de Sargans.
 
 Durante el verano trabajo como mesero en el [Pizolhütte](https://maps.app.goo.gl/L4Kf84GFvuPcFHy69), una cabaña en la cima del área de Pizol. En mi tiempo libre disfruto de la tranquilidad de la montaña y también sigo haciendo proyectos de programación y temas digitales.
 
