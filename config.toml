@@ -24,7 +24,7 @@ enableRobotsTXT = true
   tocOpen = false
   ShowShareButtons = false                     # ❌ Turn off share buttons
   mainSections = ["posts"]
-  favicon = "favicon.png"
+  #favicon = "favicon.png"
 
 
 ############################################
