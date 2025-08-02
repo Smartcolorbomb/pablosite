@@ -1,18 +1,56 @@
-backend:
-  name: github
-  repo: Smartcolorbomb/pablosite
-  branch: main
-  auth_scope: repo
+# =============================
+# 🔗 BACKEND CONFIGURATION
+# =============================
 
-media_folder: "static/images/uploads"
-public_folder: "/images/uploads"
+backend:
+  name: git-gateway                         # We use git-gateway with DecapBridge
+  repo: Smartcolorbomb/pablosite           # Format: username/repository
+  branch: main                             # Your default git branch (could also be "master")
+  identity_url: https://auth.decapbridge.com/sites/5ea41419-80d3-439a-838f-d0a67d1f19d7
+  gateway_url: https://gateway.decapbridge.com
+
+# =============================
+# 💬 COMMIT MESSAGES (optional)
+# =============================
+
+commit_messages:
+  create: Create {{collection}} “{{slug}}” – {{author-name}} <{{author-login}}> via DecapBridge
+  update: Update {{collection}} “{{slug}}” – {{author-name}} <{{author-login}}> via DecapBridge
+  delete: Delete {{collection}} “{{slug}}” – {{author-name}} <{{author-login}}> via DecapBridge
+  uploadMedia: Upload “{{path}}” – {{author-name}} <{{author-login}}> via DecapBridge
+  deleteMedia: Delete “{{path}}” – {{author-name}} <{{author-login}}> via DecapBridge
+  openAuthoring: Message {{message}} – {{author-name}} <{{author-login}}> via DecapBridge
+
+# =============================
+# 🌍 SITE METADATA (optional)
+# =============================
+
+logo_url: https://decapbridge.com/decapcms-with-bridge.svg
+site_url: https://pablo.spa
+
+# =============================
+# 🖼️ MEDIA CONFIGURATION
+# =============================
+
+media_folder: "static/uploads"             # Where uploaded files will be saved in your repo
+public_folder: "/uploads"                  # URL path used in Markdown files (relative to site root)
+
+# =============================
+# 📚 COLLECTIONS (content types)
+# =============================
 
 collections:
-  - name: "blog"
-    label: "Blog"
-    folder: content/posts
-    create: true
-    slug: "{{slug}}"
+  - name: "posts"                          # Internal name of the collection
+    label: "Blog Posts"                    # Display label in the admin panel
+    folder: "content/posts"                # Folder where Markdown files live
+    create: true                           # Allow creation of new posts
+    slug: "{{slug}}"                       # Filename format (can also include date, e.g., {{year}}-{{month}}-{{day}}-{{slug}})
     fields:
       - { label: "Title", name: "title", widget: "string" }
+      - { label: "Date", name: "date", widget: "datetime" }
+      - { label: "Draft", name: "draft", widget: "boolean", default: true }
       - { label: "Body", name: "body", widget: "markdown" }
+
+# =============================
+# ✅ END OF CONFIG
+# =============================
