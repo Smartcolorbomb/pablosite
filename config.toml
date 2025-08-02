@@ -64,18 +64,18 @@ enableRobotsTXT = true
   [[menu.main]]
     identifier = "es"
     name = "🇲🇽 Es"
-    url = "https://pablo.spa/es/"
+    url = "es/"
     weight = 90
 
   [[menu.main]]
     identifier = "en"
     name = "🇬🇧 En"
-    url = "https://pablo.spa/en/"
+    url = "en/"
     weight = 91
 
   [[menu.main]]
   identifier = "admin"
   name = "🛠 Login"
-  url = "https://pablo.spa/admin"
+  url = "/admin/"
   weight = 92
   relURL = false
