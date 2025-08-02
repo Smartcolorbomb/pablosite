@@ -1,5 +1,5 @@
 ---
-title: Porque escribir un Blog?
+title: Porque escribir un blog?
 date: 2025-08-02T13:32:00.000+02:00
 lang: es
 translationKey: BLOG1
