@@ -1,0 +1,4 @@
+/* Optional: Hide share buttons if still visible */
+.share-buttons {
+  display: none !important;
+}
