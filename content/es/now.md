@@ -18,9 +18,12 @@ Esta página es una especie de “check-in” digital, donde cuento brevemente e
 
 Actualmente estoy viviendo en una cabaña en los Alpes suizos llamada [Gaffiahütte](https://maps.app.goo.gl/3rp6uyCyBACvAzSC9), cerca del pueblo de Sargans.
 
-Durante el verano trabajo como mesero en el [Pizolhütte](https://maps.app.goo.gl/L4Kf84GFvuPcFHy69), una cabaña en la cima del área de Pizol. En mi tiempo libre disfruto de la tranquilidad de la montaña y también sigo haciendo proyectos de programación y temas digitales.
+Estoy aquí hasta finales de octubre, trabajando como mesero y ayudando en general en el [Pizolhütte](https://maps.app.goo.gl/L4Kf84GFvuPcFHy69), una cabaña en lo alto de la montaña. Es una especie de combinación entre vacaciones y trabajo: un empleo que se siente gratificante, poco estresante y divertido, y que me está dando la oportunidad de vivir en este lugar increíble y disfrutar a fondo del entorno alpino.
 
-Antes de esto, trabajé más de dos años en el negocio familiar de carpintería en Oaxaca, *Carpintería Huayapam*. Todavia hago algunas cosas para la pagina web de la carpitneria de rato en rato.
+Además, en las noches colaboro de forma remota con [Carpintería Huayapam](https://carpinteriahuayapam.com), el taller familiar de muebles en Oaxaca donde trabajé por más de dos años. Sigo apoyando con el sitio web y otros temas digitales desde aquí.
+
+Si tienes tiempo y estás por la zona, escríbeme para ver si podemos encontrarnos. En la cabaña donde vivo hay lugar para visitas. Subir no es tan fácil —hay que caminar unas tres horas o tomar la góndola— pero una vez aquí, hay buena comida, un lugar cálido para dormir y vistas espectaculares. ¡Estás invitado!
+
 
 | Campo       | Información                                                |
 |-------------|------------------------------------------------------------|
