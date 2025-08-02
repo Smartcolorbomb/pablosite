@@ -18,6 +18,6 @@ Aquí puedes ver cómo contactarme y dónde estoy ahora mismo:
 | 💼 Trabajo          | Estoy trabajando como mesero en la [Pizolhütte](https://maps.app.goo.gl/L4Kf84GFvuPcFHy69), y también haciendo algo de programación y web para Carpintería Huayapam. |
 | 📱 WhatsApp         | [+52 1 951 635 3213](https://wa.me/5219516353213)                                                     |
 | 📞 Celular          | +49 151 75043482                                                                                      |
-| 📷 Instagram        | [@pablo_spada](https://instagram.com/pablo_spada)                                                     |
+| 📷 Instagram        | [@pablo.spada](https://instagram.com/pablo.spada)                                                     |
 | 📡 Signal           | +52 1 951 635 3213                                                                                    |
 | ✉️ Email            | [spadatellopablo@gmail.com](mailto:spadatellopablo@gmail.com)                                        |
