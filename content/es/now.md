@@ -10,7 +10,7 @@ menu:
 showToc: false
 ---
 
-![Foto de perfil](/uploads/profile.jpg)
+![Foto de perfil](/uploads/profile750.jpg)
 
 ¡Hola!
 
