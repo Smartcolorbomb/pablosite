@@ -28,40 +28,38 @@ enableRobotsTXT = true
   disableSpecial1stPost = true
   disableExternalLinkIcon = true
 
-
 ############################################
 # 🌐 Multilingual Configuration
 ############################################
 
 [languages]
 
-  [languages.es]
-    languageName = "Español"
-    contentDir = "content/es"
-    title = "Pablo Spada"
-    weight = 1
-
-  [languages.es.params.homeInfoParams]
-    Title = "Hola, Bienvenido"
-    Content = "Este es mi blog personal. Aquí comparto ideas y reflexiones. Puedes cambiar de idioma arriba."
-
   [languages.en]
     languageName = "English"
     contentDir = "content/en"
     title = "Pablo Spada"
+    weight = 1
+
+    [languages.en.params.homeInfoParams]
+      Title = "Hi, Welcome!"
+      Content = "This is my personal blog where I share thoughts and reflections. You can switch languages above."
+
+  [languages.es]
+    languageName = "Español"
+    contentDir = "content/es"
+    title = "Pablo Spada"
     weight = 2
-    
-  [languages.en.params.homeInfoParams]
-    Title = "Hi, Welcome!"
-    Content = "This is my personal blog where I share thoughts and reflections. You can switch languages above."
+
+    [languages.es.params.homeInfoParams]
+      Title = "Hola, Bienvenido"
+      Content = "Este es mi blog personal. Aquí comparto ideas y reflexiones. Puedes cambiar de idioma arriba."
 
 ############################################
 # 📂 Menu Configuration
 ############################################
 
- [menu]
+[menu]
 
-# 🛠 Login Redirect to Decap Site
   [[menu.main]]
     identifier = "admin"
     name = "🛠 Login"
