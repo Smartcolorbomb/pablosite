@@ -1,0 +1,14 @@
+{{ define "main" }}
+
+  {{ partial "home.html" . }}
+
+  {{ $posts := where .Site.RegularPages "Section" "blog" }}
+  {{ if $posts }}
+    <section class="post-entry-list">
+      {{ range $posts }}
+        {{ partial "li.html" . }}
+      {{ end }}
+    </section>
+  {{ end }}
+
+{{ end }}
