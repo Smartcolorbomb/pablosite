@@ -64,18 +64,18 @@ enableRobotsTXT = true
 
   [[menu.main]]
     identifier = "home"
-    name = "Inicio"
+    name = "Home"
     url = "/"
     weight = 1
 
   [[menu.main]]
     identifier = "es"
     name = "🇪🇸 Español"
-    url = "//pablo.spa/es/"
+    url = "https://pablo.spa/es/"
     weight = 90
 
   [[menu.main]]
     identifier = "en"
     name = "🇬🇧 English"
-    url = "//pablo.spa/en/"
+    url = "https://pablo.spa/en/"
     weight = 91
