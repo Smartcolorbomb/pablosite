@@ -41,8 +41,8 @@ public_folder: "/uploads"
 
 i18n:
   structure: multiple_folders
-  locales: [en, es]
-  default_locale: en
+  locales: [es, en]
+  default_locale: es
 
 # =============================
 # 📚 COLLECTIONS
@@ -50,10 +50,10 @@ i18n:
 
 collections:
   - name: "posts"
-    label: "Blog Posts"
-    folder: "content/locale"
-    create: true
+    label: "Posts"
     i18n: true
+    folder: "content/{{locale}}/posts"
+    create: true
     slug: "{{slug}}"
     format: "yaml-frontmatter"
     identifier_field: title
@@ -61,6 +61,5 @@ collections:
       - { label: "Title", name: "title", widget: "string", i18n: true }
       - { label: "Date", name: "date", widget: "datetime", i18n: true }
       - { label: "Draft", name: "draft", widget: "boolean", default: true, i18n: true }
-      - { label: "Translation Key", name: "translationKey", widget: "string", required: false, hint: "Shared key to link translations", i18n: duplicate }
       - { label: "Summary", name: "summary", widget: "string", required: false, i18n: true }
       - { label: "Body", name: "body", widget: "markdown", i18n: true }
