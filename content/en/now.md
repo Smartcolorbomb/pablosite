@@ -24,10 +24,10 @@ I'm working as a waiter in a mountain hut, the [Pizolhütte](https://maps.app.go
 
 | Field         | Information                                          |
 |---------------|------------------------------------------------------|
-| 📞 WhatsApp     | [+52 1 951 635 3213](https://wa.me/5219516353213) |
-| 📞 Phone        | +49 151 75043482                                  |
-| 📷 Instagram    | [@pablo_spada](https://instagram.com/pablo_spada) |
-| 📡 Signal       | +52 1 951 635 3213                                 |
+| 📞 WhatsApp     | [+5219516353213](https://wa.me/5219516353213) |
+| 📞 Phone        | +4915175043482                                  |
+| 📷 Instagram    | [@pablo.spada](https://instagram.com/pablo.spada) |
+| 📡 Signal       | +5219516353213                                 |
 | ✉️ Email        | [spadatellopablo@gmail.com](mailto:spadatellopablo@gmail.com) |
 
 </div>
