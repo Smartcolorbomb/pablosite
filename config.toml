@@ -58,14 +58,14 @@ enableRobotsTXT = true
 # 📂 Menu Configuration
 ############################################
 
-[menu]
+ [menu]
 
   [[menu.main]]
     identifier = "es"
     name = "🇲🇽 Es"
     url = "/es/"
     weight = 90
-    relURL = true
+    pre = ""
     post = ""
 
   [[menu.main]]
@@ -73,7 +73,7 @@ enableRobotsTXT = true
     name = "🇬🇧 En"
     url = "/en/"
     weight = 91
-    relURL = true
+    pre = ""
     post = ""
 
   [[menu.main]]
@@ -81,6 +81,5 @@ enableRobotsTXT = true
     name = "🛠 Login"
     url = "/admin/"
     weight = 92
-    relURL = true
+    pre = ""
     post = ""
-
