@@ -1,6 +1,4 @@
 ---
-title: "Welcome"
-layout: "list"
+title: "Home"
+layout: "home"
 ---
-
-Posts in english here.
