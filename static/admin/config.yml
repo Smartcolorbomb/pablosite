@@ -3,14 +3,14 @@
 # =============================
 
 backend:
-  name: git-gateway                         # We use git-gateway with DecapBridge
-  repo: Smartcolorbomb/pablosite           # Format: username/repository
-  branch: main                             # Your default git branch
+  name: git-gateway
+  repo: Smartcolorbomb/pablosite
+  branch: main
   identity_url: https://auth.decapbridge.com/sites/5ea41419-80d3-439a-838f-d0a67d1f19d7
   gateway_url: https://gateway.decapbridge.com
 
 # =============================
-# 💬 COMMIT MESSAGES (optional)
+# 💬 COMMIT MESSAGES
 # =============================
 
 commit_messages:
@@ -22,11 +22,11 @@ commit_messages:
   openAuthoring: Message {{message}} – {{author-name}} <{{author-login}}> via DecapBridge
 
 # =============================
-# 🌍 SITE METADATA (optional)
+# 🌍 SITE METADATA
 # =============================
 
-logo_url: https://decapbridge.com/decapcms-with-bridge.svg
 site_url: https://pablo.spa
+logo_url: https://decapbridge.com/decapcms-with-bridge.svg
 
 # =============================
 # 🖼️ MEDIA CONFIGURATION
@@ -36,24 +36,12 @@ media_folder: "static/uploads"
 public_folder: "/uploads"
 
 # =============================
-# 📚 COLLECTIONS (content types)
+# 📚 COLLECTIONS
 # =============================
 
 collections:
-  # ✅ ORIGINAL default post collection (in case you want to keep general posts)
-  - name: "posts"
-    label: "Blog Posts (General)"
-    folder: "content/posts"
-    create: true
-    slug: "{{slug}}"
-    format: "yaml-frontmatter"
-    fields:
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "Date", name: "date", widget: "datetime" }
-      - { label: "Draft", name: "draft", widget: "boolean", default: true }
-      - { label: "Body", name: "body", widget: "markdown" }
 
-  # 📘 SPANISH posts
+  # 📘 Spanish blog posts
   - name: "posts_es"
     label: "Publicaciones (ES)"
     folder: "content/es"
@@ -61,26 +49,13 @@ collections:
     slug: "{{slug}}"
     format: "yaml-frontmatter"
     fields:
-      - label: "Título"
-        name: "title"
-        widget: "string"
-      - label: "Fecha"
-        name: "date"
-        widget: "datetime"
-      - label: "Idioma"
-        name: "lang"
-        widget: "hidden"
-        default: "es"
-      - label: "Clave de traducción"
-        name: "translationKey"
-        widget: "string"
-        required: false
-        hint: "Usa la misma clave que la versión en inglés para vincular los posts"
-      - label: "Contenido"
-        name: "body"
-        widget: "markdown"
+      - { label: "Título", name: "title", widget: "string" }
+      - { label: "Fecha", name: "date", widget: "datetime" }
+      - { label: "Idioma", name: "lang", widget: "hidden", default: "es" }
+      - { label: "Clave de traducción", name: "translationKey", widget: "string", required: false, hint: "Usa la misma clave que la versión en inglés para vincular los posts" }
+      - { label: "Contenido", name: "body", widget: "markdown" }
 
-  # 📙 ENGLISH posts
+  # 📙 English blog posts
   - name: "posts_en"
     label: "Posts (EN)"
     folder: "content/en"
@@ -88,21 +63,8 @@ collections:
     slug: "{{slug}}"
     format: "yaml-frontmatter"
     fields:
-      - label: "Title"
-        name: "title"
-        widget: "string"
-      - label: "Date"
-        name: "date"
-        widget: "datetime"
-      - label: "Language"
-        name: "lang"
-        widget: "hidden"
-        default: "en"
-      - label: "Translation Key"
-        name: "translationKey"
-        widget: "string"
-        required: false
-        hint: "Use the same key as the Spanish version to link them"
-      - label: "Body"
-        name: "body"
-        widget: "markdown"
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Date", name: "date", widget: "datetime" }
+      - { label: "Language", name: "lang", widget: "hidden", default: "en" }
+      - { label: "Translation Key", name: "translationKey", widget: "string", required: false, hint: "Use the same key as the Spanish version to link them" }
+      - { label: "Body", name: "body", widget: "markdown" }
