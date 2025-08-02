@@ -16,8 +16,8 @@ Here’s how to reach me and where I am right now:
 |---------------------|------------------------------------------------------------------------------------------------------|
 | 📍 Location         | I'm currently living in a cabin in the Swiss Alps called the [Gaffia Hütte](https://maps.app.goo.gl/3rp6uyCyBACvAzSC9), near the town of Sargans. |
 | 💼 Work             | I’m working as a waiter at the [Pizolhütte](https://maps.app.goo.gl/L4Kf84GFvuPcFHy69) and also doing some programming and web work for Carpintería Huayapam. |
-| 📱 WhatsApp         | [+52 1 951 635 3213](https://wa.me/5219516353213)                                                    |
-| 📞 Mobile           | +49 151 75043482                                                                                     |
+| 📱 WhatsApp         | [+5219516353213](https://wa.me/5219516353213)                                                    |
+| 📞 Mobile           | +4915175043482                                                                                     |
 | 📷 Instagram        | [@pablo.spada](https://instagram.com/pablo.spada)                                                    |
-| 📡 Signal           | +52 1 951 635 3213                                                                                   |
+| 📡 Signal           | +5219516353213                                                                                   |
 | ✉️ Email            | [spadatellopablo@gmail.com](mailto:spadatellopablo@gmail.com)                                        |
