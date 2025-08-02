@@ -5,32 +5,29 @@ draft: false
 translationKey: "now-page"
 menu:
   main:
-    weight: 89
+    weight: 90
     name: "Now"
 showToc: false
 ---
 
-<div style="max-width: 700px; margin: 0 auto; text-align: center;">
+![Profile picture](/uploads/profile.jpg)
 
-<img src="/uploads/profile.jpg" alt="Profile photo" style="border-radius: 12px; width: 200px; max-width: 80%; margin-bottom: 1.5rem;" />
+Hi there!
 
-Hi!
+This page is meant to be a quick snapshot of where I am right now, what I’m doing, and how to reach me — kind of a digital “check-in” for friends, family, or anyone curious.
 
-I'm currently living in a cabin in the Swiss Alps called <a href="https://maps.app.goo.gl/3rp6uyCyBACvAzSC9" target="_blank">Gaffiahütte</a>.  
-The nearest town is Sargans.
+I'm currently living in a mountain cabin in the Swiss Alps — the [Gaffia Hütte](https://maps.app.goo.gl/3rp6uyCyBACvAzSC9), with the nearest town being Sargans.
 
-I'm working as a waiter in a mountain hut, the <a href="https://maps.app.goo.gl/L4Kf84GFvuPcFHy69" target="_blank">Pizolhütte</a>, and also doing some web programming for Carpintería Huayapam.
+During the summer season, I'm working as a waiter at the [Pizolhütte](https://maps.app.goo.gl/L4Kf84GFvuPcFHy69), a mountain hut at the top of the Pizol area. Between shifts, I enjoy the peaceful alpine life and continue doing occasional programming work and digital projects.
+
+Before this, I spent over two years working in my family's woodworking business, *Carpintería Huayapam*, in Oaxaca, Mexico — focused on high-end custom furniture and process improvement.
 
 ## Contact
 
-<div style="overflow-x: auto;">
-<table style="margin: 0 auto;">
-  <tr><td>📞 WhatsApp</td><td><a href="https://wa.me/5219516353213">+52 1 951 635 3213</a></td></tr>
-  <tr><td>📞 Phone</td><td>+49 151 75043482</td></tr>
-  <tr><td>📷 Instagram</td><td><a href="https://instagram.com/pablo_spada">@pablo_spada</a></td></tr>
-  <tr><td>📡 Signal</td><td>+52 1 951 635 3213</td></tr>
-  <tr><td>✉️ Email</td><td><a href="mailto:spadatellopablo@gmail.com">spadatellopablo@gmail.com</a></td></tr>
-</table>
-</div>
-
-</div>
+| Field       | Information                                                |
+|-------------|------------------------------------------------------------|
+| 📞 WhatsApp | [+5219516353213](https://wa.me/5219516353213)              |
+| 📞 Phone    | +4915175043482                                              |
+| 📷 Instagram| [@pablo.spada](https://instagram.com/pablo.spada)           |
+| 📡 Signal   | +5219516353213                                              |
+| ✉️ Email    | [spadatellopablo@gmail.com](mailto:spadatellopablo@gmail.com) |
