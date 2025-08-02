@@ -1,6 +1,4 @@
 ---
-title: "Bienvenido"
-layout: "list"
+title: "Home"
+layout: "home"
 ---
-
-Posts en Español.
