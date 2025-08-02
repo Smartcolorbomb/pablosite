@@ -1,32 +1,88 @@
+############################################
+# Hugo Site Configuration
+############################################
+
 baseURL = "https://pablo.spa/"
 languageCode = "en-us"
-title = "Pablo's Blog"
+title = "Pablo Spada"
 theme = "PaperMod"
+defaultContentLanguage = "es"                  # Default language
+defaultContentLanguageInSubdir = true          # Show /es/, /en/ in URLs
 enableRobotsTXT = true
 
+############################################
+# Parameters for PaperMod Theme
+############################################
+
 [params]
-  defaultTheme = "auto"
+  defaultTheme = "auto"                        # "light", "dark" or "auto"
   showReadingTime = true
-  showShareButtons = true
   showPostNavLinks = true
   showCodeCopyButtons = true
   showBreadCrumbs = true
   showToc = true
   tocOpen = false
+  ShowShareButtons = false                     # ❌ Disable share buttons
 
+  # ✅ Homepage content (customizable)
   [params.homeInfoParams]
-    Title = "Welcome to my blog"
-    Content = "This is a place where I share ideas and stories with my friends."
+    Title = "Hola, soy Pablo"
+    Content = "Este es mi blog personal. Aquí comparto ideas y reflexiones en español e inglés. Puedes cambiar de idioma arriba."
+
+  # ✅ Link to Decap CMS login in the footer
+  [params.footer]
+    enable = true
+    customText = '<a href="/admin" style="text-decoration:none;">login personal</a>'
+
+  # ✅ Load custom CSS for any overrides (optional, needs file)
+  [params.assets]
+    css = ["css/custom.css"]                   # Put your styles in /assets/css/custom.css
+
+############################################
+# Language Configuration (Multilingual)
+############################################
+
+[languages]
+
+  [languages.es]
+    languageName = "Español"
+    weight = 1
+    contentDir = "content/es"
+    title = "Pablo Spada"
+
+  [languages.en]
+    languageName = "English"
+    weight = 2
+    contentDir = "content/en"
+    title = "Pablo Spada"
+
+############################################
+# Menu Configuration (Top Navbar)
+############################################
 
 [menu]
+
   [[menu.main]]
-    identifier = "home"
-    name = "Home"
+    identifier = "Home"
+    name = "Inicio"
     url = "/"
     weight = 1
 
   [[menu.main]]
-    identifier = "posts"
-    name = "Posts"
+    identifier = "Posts"
+    name = "Publicaciones"
     url = "/posts/"
     weight = 2
+
+  # ✅ Language toggles (optional but useful)
+  [[menu.main]]
+    identifier = "es"
+    name = "🇲🇽 Español"
+    url = "/es/"
+    weight = 90
+
+  [[menu.main]]
+    identifier = "en"
+    name = "🇬🇧 English"
+    url = "/en/"
+    weight = 91
