@@ -3,6 +3,7 @@ title: "Now"
 date: 2025-08-02
 draft: false
 translationKey: "now-page"
+menu: "main"
 ---
 
 Hi!
