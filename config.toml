@@ -24,7 +24,7 @@ enableRobotsTXT = true
   tocOpen = false
   ShowShareButtons = false                     # ❌ Turn off share buttons
   mainSections = ["posts"]
-  #disableSpecial1stPost = true
+  disableSpecial1stPost = true
   disableExternalLinkIcon = true
 
 
@@ -60,23 +60,27 @@ enableRobotsTXT = true
 
 [menu]
 
- [[menu.main]]
-  identifier = "es"
-  name = "🇲🇽 Es"
-  url = "https://pablo.spa/es/"
-  weight = 90
-  post = ""  # Prevents Hugo from adding icon
+  [[menu.main]]
+    identifier = "es"
+    name = "🇲🇽 Es"
+    url = "/es/"
+    weight = 90
+    relURL = true
+    post = ""
 
-[[menu.main]]
-  identifier = "en"
-  name = "🇬🇧 En"
-  url = "https://pablo.spa/en/"
-  weight = 91
-  post = ""  # Prevents Hugo from adding icon
+  [[menu.main]]
+    identifier = "en"
+    name = "🇬🇧 En"
+    url = "/en/"
+    weight = 91
+    relURL = true
+    post = ""
 
-[[menu.main]]
-  identifier = "admin"
-  name = "🛠 Login"
-  url = "https://pablo.spa/admin/"
-  weight = 92
-  post = ""  # Prevents Hugo from adding icon
+  [[menu.main]]
+    identifier = "admin"
+    name = "🛠 Login"
+    url = "/admin/"
+    weight = 92
+    relURL = true
+    post = ""
+
