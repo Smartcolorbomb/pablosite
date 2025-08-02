@@ -70,7 +70,7 @@ enableRobotsTXT = true
 
   [[menu.main]]
     identifier = "es"
-    name = "🇪🇸 Español"
+    name = "🇲🇽 Español"
     url = "https://pablo.spa/es/"
     weight = 90
 
