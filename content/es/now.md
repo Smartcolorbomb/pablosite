@@ -20,9 +20,7 @@ Actualmente estoy viviendo en una cabaña en los Alpes suizos llamada [Gaffiahü
 
 Durante el verano trabajo como mesero en el [Pizolhütte](https://maps.app.goo.gl/L4Kf84GFvuPcFHy69), una cabaña en la cima del área de Pizol. En mi tiempo libre disfruto de la tranquilidad de la montaña y también sigo haciendo proyectos de programación y temas digitales.
 
-Antes de esto, trabajé más de dos años en el negocio familiar de carpintería en Oaxaca, *Carpintería Huayapam*, donde me enfoqué en muebles personalizados de alta calidad y en mejorar procesos de producción.
-
-## Contacto
+Antes de esto, trabajé más de dos años en el negocio familiar de carpintería en Oaxaca, *Carpintería Huayapam*. Todavia hago algunas cosas para la pagina web de la carpitneria de rato en rato.
 
 | Campo       | Información                                                |
 |-------------|------------------------------------------------------------|
