@@ -36,7 +36,7 @@ enableRobotsTXT = true
 
   [languages.en]
     languageName = "English"
-    contentDir = "content/en"
+    contentDir = "content/posts/en"
     title = "Pablo Spada"
     weight = 1
 
@@ -46,7 +46,7 @@ enableRobotsTXT = true
 
   [languages.es]
     languageName = "Español"
-    contentDir = "content/es"
+    contentDir = "content/posts/es"
     title = "Pablo Spada"
     weight = 2
 
