@@ -36,11 +36,11 @@ enableRobotsTXT = true
 
     [languages.en.params.homeInfoParams]
       Title = "Hi, Welcome!"
-     Content = """
-              <img src="/images/profile.jpg" alt="Pablo Spada" width="200" style="border-radius: 50%;">
+      Content = "This is my personal blog where I share thoughts and reflections. You can switch languages above."
+      imageUrl = "/uploads/profile.jpg"
+      imageTitle = "Pablo Spada"
+      imageWidth = "200px"
 
-              This is my personal blog where I share thoughts and reflections. You can switch languages above.
-              """
     [[languages.en.menu.main]]
       identifier = "posts"
       name = "Posts"
@@ -55,17 +55,17 @@ enableRobotsTXT = true
 
     [languages.es.params.homeInfoParams]
       Title = "Hola, Bienvenido"
-      Content = """
-              <img src="/images/profile.jpg" alt="Pablo Spada" width="200" style="border-radius: 50%;">
-              
-              Este es mi blog personal. Aquí comparto ideas y reflexiones. Puedes cambiar de idioma arriba.
-              """
+      Content = "Este es mi blog personal. Aquí comparto ideas y reflexiones. Puedes cambiar de idioma arriba."
+      imageUrl = "/uploads/profile.jpg"
+      imageTitle = "Pablo Spada"
+      imageWidth = "200px"
 
     [[languages.es.menu.main]]
       identifier = "publicaciones"
       name = "Publicaciones"
       url = "/es/posts/"
       weight = 10
+
 
 # =============================
 # 📂 Menu Configuration
