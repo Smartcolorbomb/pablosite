@@ -43,7 +43,6 @@ i18n:
 # 📚 COLLECTIONS
 # =============================
 collections:
-collections:
   - name: "posts_en"
     label: "Blog Posts (EN)"
     folder: "content/en/posts"
@@ -52,25 +51,50 @@ collections:
     format: "yaml-frontmatter"
     identifier_field: title
     fields:
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "Translation Key", name: "translationKey", widget: "string", required: false }
-      - { label: "Date", name: "date", widget: "datetime" }
-      - { label: "Draft", name: "draft", widget: "boolean", default: true }
-      - { label: "Summary", name: "summary", widget: "string", required: false }
+      - label: "Title"
+        name: "title"
+        widget: "string"
+
+      - label: "Translation Key"
+        name: "translationKey"
+        widget: "string"
+        required: false
+
+      - label: "Date"
+        name: "date"
+        widget: "datetime"
+
+      - label: "Draft"
+        name: "draft"
+        widget: "boolean"
+        default: true
+
+      - label: "Summary"
+        name: "summary"
+        widget: "string"
+        required: false
+
       - label: "Category"
         name: "categories"
         widget: "select"
         multiple: true
         options: ["Philosophy", "Work", "Random", "Trips"]
         required: false
+
       - label: "Tags"
         name: "tags"
         widget: "list"
         required: false
         hint: "Add related keywords (e.g., AI, Hugo, Mountains)"
-      - { label: "Featured Image", name: "featured_image", widget: "image", required: false }
-      - { label: "Body", name: "body", widget: "markdown" }
 
+      - label: "Featured Image"
+        name: "featured_image"
+        widget: "image"
+        required: false
+
+      - label: "Body"
+        name: "body"
+        widget: "markdown"
 
   - name: "posts_es"
     label: "Publicaciones (ES)"
@@ -80,21 +104,47 @@ collections:
     format: "yaml-frontmatter"
     identifier_field: title
     fields:
-      - { label: "Título", name: "title", widget: "string" }
-      - { label: "Clave de traducción", name: "translationKey", widget: "string", required: false }
-      - { label: "Fecha", name: "date", widget: "datetime" }
-      - { label: "Borrador", name: "draft", widget: "boolean", default: true }
-      - { label: "Resumen", name: "summary", widget: "string", required: false }
+      - label: "Título"
+        name: "title"
+        widget: "string"
+
+      - label: "Clave de traducción"
+        name: "translationKey"
+        widget: "string"
+        required: false
+
+      - label: "Fecha"
+        name: "date"
+        widget: "datetime"
+
+      - label: "Borrador"
+        name: "draft"
+        widget: "boolean"
+        default: true
+
+      - label: "Resumen"
+        name: "summary"
+        widget: "string"
+        required: false
+
       - label: "Categoría"
         name: "categories"
         widget: "select"
         multiple: true
         options: ["Filosofía", "Trabajo", "Aleatorio", "Viajes"]
         required: false
+
       - label: "Etiquetas"
         name: "tags"
         widget: "list"
         required: false
         hint: "Palabras clave relacionadas (ej. Hugo, Montañas)"
-      - { label: "Imagen destacada", name: "featured_image", widget: "image", required: false }
-      - { label: "Contenido", name: "body", widget: "markdown" }
+
+      - label: "Imagen destacada"
+        name: "featured_image"
+        widget: "image"
+        required: false
+
+      - label: "Contenido"
+        name: "body"
+        widget: "markdown"
