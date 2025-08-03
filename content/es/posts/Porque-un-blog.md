@@ -1,9 +1,11 @@
 ---
-title: Why write a blog?
+title: Porque escribir un Blog?
 date: 2025-08-02T13:33:00.000+02:00
-lang: en
+lang: es
 translationKey: BLOG1
 ---
+Spanish:
+
 Welcome to this blog
 
 Hello friends and family who find your way here. I don’t think I need to introduce myself — most of you probably know me already.
