@@ -3,6 +3,8 @@ title: Why write a blog?
 date: 2025-08-02T13:33:00.000+02:00
 lang: en
 translationKey: BLOG1
+draft: false
+featured_image: /uploads/img_5685.jpeg
 ---
 Welcome to this blog
 
